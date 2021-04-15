@@ -10,7 +10,7 @@ class Footer extends Component {
     return (
       <footer className={classes.footer}>
         <a
-          href="https://github.com/PrinceSumberia/covid-19-tracker"
+          href="https://github.com/MohammedAbidNafi/COVID19-Tracker-Advanced-React"
           target="_blank"
           rel="noopener noreferrer"
           className={classNames(classes.btn, classes.github)}
@@ -26,7 +26,7 @@ class Footer extends Component {
           Share on Twitter
         </a>
         <a
-          href="https://github.com/PrinceSumberia/covid-19-tracker/issues/new"
+          href="https://github.com/MohammedAbidNafi/COVID19-Tracker-Advanced-React/issues"
           target="_blank"
           rel="noopener noreferrer"
           className={classNames(classes.btn, classes.issue)}
