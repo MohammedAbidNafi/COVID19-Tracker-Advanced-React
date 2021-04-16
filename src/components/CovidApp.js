@@ -232,6 +232,7 @@ class CovidApp extends Component {
             </div>
             {expanded && <div className={classes.update}>{displayUpdates}</div>}
           </div>
+          {/*
           <div className="darkModeButton">
             <label className="switch">
               <input
@@ -242,6 +243,7 @@ class CovidApp extends Component {
               <span className="slider round"></span>
             </label>
           </div>
+          */}
         </div>
         <div>
           <Overview

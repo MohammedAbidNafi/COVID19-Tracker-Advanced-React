@@ -20,7 +20,7 @@ class StaySafe extends Component {
       { src: Second, title: "Wear a Mask" },
       { src: Third, title: "Use Alcohol Based Sanitizer" },
       { src: Fourth, title: "Visit Doctor Incase of any Symptoms" },
-      { src: Fifth, title: "Keep Distance" },
+      { src: Fifth, title: "Keep atleast 6 feet Distance" },
       { src: Sixth, title: "Stay Home Stay Safe" },
     ];
     const { classes, isDarkMode } = this.props;
