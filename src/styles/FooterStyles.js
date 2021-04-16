@@ -1,4 +1,5 @@
 import sizes from "./sizes";
+import colors from "../constants/colors";
 
 export default {
   footer: {
@@ -68,6 +69,6 @@ export default {
   },
 
   issue: {
-    backgroundColor: "#817C9B",
+    backgroundColor: colors.red,
   },
 };

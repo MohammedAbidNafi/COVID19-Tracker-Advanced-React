@@ -124,7 +124,7 @@ export default {
   active: {
     "& div": {
       color: (props) =>
-        props.isDarkMode ? "rgb(245, 245, 245)" : colors.purple,
+        props.isDarkMode ? "rgb(245, 245, 245)" : "rgb(0,0,0)",
       zIndex: "10",
       position: "relative",
       animation: "$float 2s ease infinite",

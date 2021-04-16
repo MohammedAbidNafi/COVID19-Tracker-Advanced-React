@@ -317,12 +317,12 @@ class CovidApp extends Component {
                   className={classes.tinych}
                   style={{ background: 'rgba(98, 54, 255,.1)' }}
                 >
-                  <h3 style={{ color: colors.purple }}>Deceased</h3>
+                  <h3 style={{ color: colors.black }}>Deceased</h3>
                   <Barchart
                     data={this.state.casesTimeline}
                     isLoading={this.state.isLoading}
                     dataKey="totaldeceased"
-                    stroke={colors.darkPurple}
+                    stroke={colors.black}
                   />
                 </div>
               </div>

@@ -12,7 +12,7 @@ class Symptoms extends Component {
     return (
       <div className={classes.symptoms}>
         <h2 className={classes.heading}>
-          <span>COVID-19 Coronavirus</span> - Symptoms
+          COVID-19 Coronavirus - Symptoms
         </h2>
         <div className={classes.content}>
           <div className={classes.mainContent}>

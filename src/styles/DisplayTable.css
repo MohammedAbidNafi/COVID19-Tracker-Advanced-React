@@ -7,7 +7,7 @@ table {
   text-align: left;
   margin-right: 1rem;
   margin-left: 1rem;
-  color: #1A1053;
+  color: #2E2E2E;
   /* border-bottom: 2px solid black; */
 }
 
@@ -23,7 +23,7 @@ table {
   padding: 1rem 2rem;
   text-align: left;
   margin-bottom: 1px;
-  background-color: #1A1053;
+  background-color: #2E2E2E;
   color: #fff;
 
   transition: all .4s;
@@ -50,7 +50,7 @@ table {
 }
 
 .state-td {
-  color: #1A1053;
+  color: #2E2E2E;
   padding: 1rem 2rem;
   margin-top: 5rem;
 }
@@ -60,7 +60,7 @@ table {
 }
 
 .state-tr:hover {
-  background-color: #1A1053;
+  background-color: #2E2E2E;
   transition: all .3s;
 
 }
@@ -74,7 +74,7 @@ table {
 }
 
 .state-tr:nth-child(even):hover {
-  background-color: #1A1053;
+  background-color: #2E2E2E;
 }
 
 .districtHead {

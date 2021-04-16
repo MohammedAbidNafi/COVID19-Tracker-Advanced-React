@@ -17,7 +17,7 @@ class StaySafe extends Component {
   render() {
     const svgIcons = [
       { src: First, title: "Wash Your Hands Often" },
-      { src: Second, title: "Wear a Mask" },
+      { src: Second, title: "Always Wear a Mask" },
       { src: Third, title: "Use Alcohol Based Sanitizer" },
       { src: Fourth, title: "Visit Doctor Incase of any Symptoms" },
       { src: Fifth, title: "Keep atleast 6 feet Distance" },

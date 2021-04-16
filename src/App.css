@@ -5,7 +5,7 @@
  .navBar {
    flex: 0 0 8%;
    min-height: 100vh;
-   background-color: #1A1053;
+   background-color: #2E2E2E;
    color: rgba(255, 255, 255, .9);
    text-transform: capitalize;
    display: flex;
@@ -28,6 +28,7 @@
      min-height: 10vh;
      justify-content: space-around;
      align-items: center;
+     
    }
 
    .mainContent {
