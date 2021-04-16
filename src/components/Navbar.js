@@ -60,7 +60,7 @@ class Navbar extends Component {
               >
                 <div className={classes.iconBox}>
                   <FontAwesomeIcon icon={faHome} className={classes.icons} />
-                  <p>Overview</p>
+                  <p>Dashboard</p>
                 </div>
               </NavLink>
             </li>

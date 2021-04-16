@@ -9,14 +9,9 @@ import INDIA_TOPO_JSON from "../constants/india.topo.json";
 import styles from "../styles/MapStyles";
 import "../styles/MapStyles.js";
 
-/**
- * Courtesy: https://rawgit.com/Anujarya300/bubble_maps/master/data/geography-data/india.topo.json
- * Looking topojson for other countries/world?
- * Visit: https://github.com/markmarkoh/datamaps
- */
 
 const PROJECTION_CONFIG = {
-  scale: 350,
+  scale: 400,
   center: [78.9629, 22.5937], // always in [East Latitude, North Longitude]
 };
 
@@ -97,7 +92,7 @@ class Map extends Component {
         <ComposableMap
           projectionConfig={PROJECTION_CONFIG}
           projection="geoMercator"
-          width={600}
+          width={500}
           height={220}
           data-tip=""
         >

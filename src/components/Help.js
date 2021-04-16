@@ -8,6 +8,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Form from "./Form";
 import Placeholder from "./Placeholder";
 
+import Footer from './Footer';
+
 import styles from "../styles/HelpStyles";
 
 class Help extends Component {
@@ -122,6 +124,7 @@ class Help extends Component {
       return null;
     });
     return (
+      <>
       <div className={classes.help}>
         <h1 className={classes.mainHeading}>
           Search for Emergency Contact and Services
@@ -140,7 +143,22 @@ class Help extends Component {
         {this.state.loadingStatus === "completeLoading" && (
           <div className={classes.container}>{res}</div>
         )}
+
+        
       </div>
+      <div style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",       
+      }}>
+      
+      <h1 className={classes.text}>
+          If its blank then please check the spelling or enter correct location.
+        </h1>
+      </div>
+      
+      <Footer />
+    </>
     );
   }
 }

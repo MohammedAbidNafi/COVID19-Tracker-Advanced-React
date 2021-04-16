@@ -201,7 +201,7 @@ class CovidApp extends Component {
       <>
         <div className={classes.header}>
           <h1 className={classes.heading}>
-            <span>Covid-19</span> Case Tracker India
+            Covid-19 Case Tracker India
           </h1>
           <div className={classes.btnBox}>
             <FontAwesomeIcon

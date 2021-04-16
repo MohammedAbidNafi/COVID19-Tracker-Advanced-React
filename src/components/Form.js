@@ -3,6 +3,7 @@ import { withStyles } from "@material-ui/styles";
 
 import styles from "../styles/FormStyles";
 
+
 class Form extends Component {
   constructor(props) {
     super(props);
@@ -27,6 +28,7 @@ class Form extends Component {
   render() {
     const { classes } = this.props;
     return (
+      
       <form onSubmit={this.handleSubmit} className={classes.form}>
         <input
           className={classes.input}
@@ -39,6 +41,7 @@ class Form extends Component {
         />
         <button className={classes.btn}>Search</button>
       </form>
+    
     );
   }
 }

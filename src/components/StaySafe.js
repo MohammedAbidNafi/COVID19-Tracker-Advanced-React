@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { withStyles } from "@material-ui/styles";
+import Footer from './Footer'
 
 import Cards from "./Cards";
 
@@ -24,8 +25,9 @@ class StaySafe extends Component {
     ];
     const { classes, isDarkMode } = this.props;
     return (
+      <>
       <div className={classes.staySafe}>
-        <h1>Stay Safe</h1>
+        <h1>How to prevent the Spread of virus</h1>
         <div className={classes.cardsBox}>
           {svgIcons.map((s, i) => (
             <Cards
@@ -37,6 +39,8 @@ class StaySafe extends Component {
           ))}
         </div>
       </div>
+      <Footer />
+      </>
     );
   }
 }

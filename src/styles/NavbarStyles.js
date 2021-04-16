@@ -10,7 +10,7 @@ export default {
       padding: "0 3rem",
       width: "100%",
       flexDirection: "row",
-      justifyContent: "space-between",
+      justifyContent: "space-between",  
     },
   },
   logo: {
