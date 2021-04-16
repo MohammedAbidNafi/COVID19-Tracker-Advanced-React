@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import NumberFormat from 'react-number-format';
 import { Bar, BarChart, Tooltip, XAxis, YAxis } from "recharts";
 
 export default class Barchart extends Component {

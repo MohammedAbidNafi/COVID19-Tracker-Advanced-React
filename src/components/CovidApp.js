@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import Lottie from 'react-lottie';
+import NumberFormat from 'react-number-format';
 import { formatDistance } from 'date-fns';
 import { withStyles } from '@material-ui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -203,6 +204,8 @@ class CovidApp extends Component {
           <h1 className={classes.heading}>
             Covid-19 Case Tracker India
           </h1>
+          
+          
           <div className={classes.btnBox}>
             <FontAwesomeIcon
               icon={faSyncAlt}
@@ -245,6 +248,14 @@ class CovidApp extends Component {
           </div>
           */}
         </div>
+        <>
+        <div className={classes.heading}>
+           <h3 className={classes.header}>
+              This is an open source project by MargsWeb. Created on 19-04-2021.
+          </h3>
+        </div>
+        </>
+
         <div>
           <Overview
             isDarkMode={isDarkMode}

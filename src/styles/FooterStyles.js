@@ -71,4 +71,7 @@ export default {
   issue: {
     backgroundColor: colors.red,
   },
+  aboutus:{
+    backgroundColor : colors.darkPurple,
+  },
 };

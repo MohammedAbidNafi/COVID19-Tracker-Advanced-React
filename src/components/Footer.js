@@ -33,6 +33,15 @@ class Footer extends Component {
         >
           Report an Issue
         </a>
+
+        <a
+          href="https://margsglobal.weebly.com/about-us.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classNames(classes.btn, classes.aboutus)}
+        >
+          About Us
+        </a>
       </footer>
     );
   }

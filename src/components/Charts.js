@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import NumberFormat from 'react-number-format';
 import { withStyles } from "@material-ui/styles";
 import {
   Legend,
