@@ -35,7 +35,7 @@ class Form extends Component {
           name="location"
           type="text"
           value={this.state.location}
-          placeholder="Enter any location"
+          placeholder="Enter State/City Name"
           onChange={this.handleChange}
           required
         />
