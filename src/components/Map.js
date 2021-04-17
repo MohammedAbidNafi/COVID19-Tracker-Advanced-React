@@ -88,6 +88,7 @@ class Map extends Component {
 
     const gradientData = {
       fromColor: COLOR_RANGE[0],
+      middleColor:COLOR_RANGE[8],
       toColor: COLOR_RANGE[COLOR_RANGE.length - 1],
       min: 0,
       max: data.reduce((max, item) => (item.value > max ? item.value : max), 0),

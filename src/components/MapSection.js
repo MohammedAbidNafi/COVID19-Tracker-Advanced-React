@@ -10,7 +10,7 @@ class MapSection extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      title: "",
+      title: "-",
       confirmed: "-",
       deaths: "-",
       recovered: "-",

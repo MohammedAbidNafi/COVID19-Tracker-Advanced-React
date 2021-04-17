@@ -31,8 +31,12 @@ class Charts extends Component {
           }
         }
         return {
+          
+          ...newObject, Total_Confirmed: newObject.totalconfirmed,
+          ...newObject, Total_Recovered: newObject.totalrecovered,
+          ...newObject, Total_Deceased: newObject.totaldeceased,
           ...newObject,
-          totalactive:
+          Total_Active:
             newObject.totalconfirmed -
             (newObject.totalrecovered + newObject.totaldeceased),
         };
@@ -63,28 +67,28 @@ class Charts extends Component {
             />
             <Line
               type="monotone"
-              dataKey="totalconfirmed"
+              dataKey="Total_Confirmed"
               stroke={colors.red}
               dot={false}
               activeDot={{ r: 8 }}
             />
             <Line
               type="monotone"
-              dataKey="totalrecovered"
+              dataKey="Total_Recovered"
               stroke={colors.green}
               dot={false}
               activeDot={{ r: 6 }}
             />
             <Line
               type="monotone"
-              dataKey="totalactive"
+              dataKey="Total_Active"
               stroke={colors.orange}
               dot={false}
               activeDot={{ r: 8 }}
             />
             <Line
               type="monotone"
-              dataKey="totaldeceased"
+              dataKey="Total_Deceased"
               stroke={colors.purple}
               dot={false}
               activeDot={{ r: 6 }}

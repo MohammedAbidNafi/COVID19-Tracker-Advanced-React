@@ -9,7 +9,7 @@ export default {
   },
 
   gradientStyle: {
-    backgroundImage: (props) => `linear-gradient(to right, ${props.data.fromColor} , ${props.data.toColor})`,
+    backgroundImage: (props) => `linear-gradient(to right, ${props.data.fromColor},${props.data.middleColor} , ${props.data.toColor})`,
     height: "20px",
   },
 
