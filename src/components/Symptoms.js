@@ -12,14 +12,14 @@ class Symptoms extends Component {
     return (
       <div className={classes.symptoms}>
         <h2 className={classes.heading}>
-          COVID-19 Coronavirus - Symptoms
+          COVID-19 (Coronavirus) - Symptoms
         </h2>
         <div className={classes.content}>
           <div className={classes.mainContent}>
             <div className={classes.alert}>
               <p>
                 There’s currently vaccine to prevent coronavirus disease
-                (COVID-19). So if your eligible to take vaccine. Take vaccine as soon as possible.
+                (COVID-19). So if your eligible to take vaccine. Take vaccine as soon as possible. <span>"Do not believe any myths about vaccine."</span>
               </p>
             </div>
             <div className={classes.symptomsMain}>
@@ -46,17 +46,18 @@ class Symptoms extends Component {
                 Some people may experience
               </h5>
               <ul className={classes.sympList}>
-                <li>aches and pains.</li>
-                <li>nasal congestion.</li>
-                <li>runny</li>
-                <li>nose.</li>
-                <li>sore throat.</li>
-                <li>diarrhoea.</li>
+                <li>Aches and Pains.</li>
+                <li>Nasal Congestion.</li>
+                <li>Runny Nose.</li>
+                <li>Sore Throat.</li>
+                <li>Head Aches.</li>
+                <li>Diarrhoea.</li>
+                <li>Blurry Eyes.</li>
               </ul>
             </div>
             <small className={classes.info}>
               These are for informational purposes only. Consult your local
-              medical authority for advice. (Source: World Health Organization)
+              medical authority for advice.
             </small>
           </div>
           <div className={classes.sidebar}>

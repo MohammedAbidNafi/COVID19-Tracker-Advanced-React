@@ -11,7 +11,7 @@ import {
   faHome,
 } from "@fortawesome/free-solid-svg-icons";
 
-import logo from "../assets/SVG/06.svg";
+import logo from "../assets/corona.png";
 
 import styles from "../styles/NavbarStyles";
 

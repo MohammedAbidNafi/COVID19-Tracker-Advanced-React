@@ -24,7 +24,7 @@ const COLOR_RANGE = [
   "#FF7878",
   "#FF4C4C",
   "#FF3B3B",
-  "#F71B1B",
+  "#FC4444",
   "#FF0000",
   "#E80000",
   "#CC0000",

@@ -263,7 +263,7 @@ export default {
     },
 
     "&:hover": {
-      backgroundColor: colors.darkPurple,
+      backgroundColor: colors.grey,
       boxShadow: "0 .25rem .5rem rgba(0,0,0,.2)",
       outline: "none",
       border: "none",

@@ -251,7 +251,7 @@ class CovidApp extends Component {
         <>
         <div className={classes.heading}>
            <h3 className={classes.header}>
-              This is an open source project by MargsWeb. Created on 19-04-2021.
+              This open source project is initiated by MargsWeb on 16-04-2021.
           </h3>
         </div>
         </>
