@@ -149,7 +149,7 @@ class Help extends Component {
         </div>
           
         )}
-
+        
 
       <div style={{
         display: "flex",
