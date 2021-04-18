@@ -3,7 +3,7 @@ import colors from "../constants/colors";
 
 export default {
   card: {
-    width: "100%",
+    width: "50%",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
@@ -12,7 +12,7 @@ export default {
     padding: "3rem 4rem",
     backgroundColor: ({ isDarkMode }) =>
       isDarkMode ? colors.darkPurple : "#fff",
-    marginBottom: "7rem",
+    marginBottom: "5rem",
     transition: "all .5s",
     boxShadow: `0 1px 2.3px -50px rgba(0, 0, 0, 0.014),
   0 2.3px 5.6px -50px rgba(0, 0, 0, 0.02),

@@ -38,9 +38,12 @@ class Symptoms extends Component {
               </p>
               <h5 className={classes.symptomsHeading}>Common symptoms</h5>
               <ul className={classes.sympList}>
-                <li>fever.</li>
-                <li>tiredness.</li>
-                <li>dry cough.</li>
+                <li>Fever.</li>
+                <li>Tiredness.</li>
+                <li>Dry Cough.</li>
+                <li>Shortness of breath or difficulty breathing.</li>
+                <li>Fatigue.</li>
+                <li>Loss of Taste or Smell.</li>
               </ul>
               <h5 className={classes.symptomsHeading}>
                 Some people may experience
@@ -51,7 +54,7 @@ class Symptoms extends Component {
                 <li>Runny Nose.</li>
                 <li>Sore Throat.</li>
                 <li>Head Aches.</li>
-                <li>Diarrhoea.</li>
+                <li>Diarrhea.</li>
                 <li>Blurry Eyes.</li>
               </ul>
             </div>
@@ -77,7 +80,7 @@ class Symptoms extends Component {
               <ul className={classes.helpfulLinks}>
                 <li>
                   <Link className={classes.link} to="/stay-safe">
-                    Prevention of Coronavirus.
+                    How to Prevent Spread of Coronavirus.
                     <span>&rarr;</span>
                   </Link>
                 </li>
@@ -89,6 +92,17 @@ class Symptoms extends Component {
                     rel="noopener noreferrer"
                   >
                     Learn more on who.int
+                    <span>&rarr;</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className={classes.link}
+                    href="https://www.ima-india.org/ima/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Get latest news about Coronavirus in India.
                     <span>&rarr;</span>
                   </a>
                 </li>

@@ -141,21 +141,27 @@ class Help extends Component {
           </div>
         )}
         {this.state.loadingStatus === "completeLoading" && (
-          <div className={classes.container}>{res}</div>
+          
+          <div className={classes.container}>{res}
+          <h1 className={classes.text}>
+          If its blank then please check the spelling or enter correct location.
+          </h1>
+        </div>
+          
         )}
 
-        
-      </div>
+
       <div style={{
         display: "flex",
         justifyContent: "center",
-        alignItems: "center",       
+        alignItems: "center", 
+            
       }}>
       
-      <h1 className={classes.text}>
-          If its blank then please check the spelling or enter correct location.
-        </h1>
+      
       </div>
+      </div>
+      
       
       <Footer />
     </>

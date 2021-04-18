@@ -9,6 +9,7 @@ import {
   Tooltip,
   XAxis,
   YAxis,
+  CartesianGrid,
 } from "recharts";
 
 import colors from "../constants/colors";
@@ -57,6 +58,7 @@ class Charts extends Component {
               bottom: 5,
             }}
           >
+            <CartesianGrid stroke="#ccc" />
             <XAxis dataKey="date" />
             <YAxis />
             <Tooltip />
