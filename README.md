@@ -2,6 +2,25 @@
 
 Website Link https://covid19-case-tracker-india.web.app/
 
+## Road Map
+1. Graph for no of people vaccinated.
+2. Grapgh for no of people got tested.
+3. Optimise for Mobile Phones.
+4. Bug Fixes and Improved Performence.
+
+## Ways to Contribute
+1. Create an issue to discuss about your idea.(https://github.com/MohammedAbidNafi/MessengerByMargs/issues)
+2. Suggest any feature or suggestion.(https://github.com/MohammedAbidNafi/MessengerByMargs/issues)
+3. Have a discussion in (https://github.com/MohammedAbidNafi/MessengerByMargs/discussions)
+
+### To make changes to code
+
+1. Fork it (https://github.com/MohammedAbidNafi/MessengerByMargs/fork)
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Commit your changes (git commit -am 'Add some feature')
+4. Push to the branch (git push origin my-new-feature)
+5. Create a new Pull Request
+
 # Apache License 2.0
 
    Apache License
